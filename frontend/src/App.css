@@ -1,0 +1,218 @@
+/* src/App.css */
+
+body {
+  margin: 1%;
+  font-family: sans-serif;
+  font-weight: 700;
+  color:#4F1787;
+  background-color:#180161;
+}
+
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #EB3678;
+}
+
+.io {
+  list-style-type: style none;
+  ;
+}
+
+.header h1 {
+
+  font-size: 28px;
+  margin: 0;
+}
+
+.content {
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.matches,
+.teams,
+.players,
+.tea {
+  background-color: #EB3678;
+  padding: 5px;
+  width: 100%;
+  overflow: hidden;
+  font-size: medium;
+  margin: 1%;
+  border-radius: 8px;
+  border-radius: 20px;
+
+}
+.matches{
+  background-color: #EB3678;
+  
+}
+
+.button {
+  background-color: #FB773C;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #007580;
+}
+
+/* App.css */
+
+.matches {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.team-creation input[type="checkbox"] {
+  transform: scale(1.5);
+  display: block;
+
+}
+
+.matches h2 {
+  color: #070707;
+  margin-top: 0;
+}
+
+.matches ul {
+  list-style: none;
+  padding: 0;
+}
+
+.matches li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.matches li:last-child {
+  border-bottom: none;
+}
+
+
+.players h2 {
+  color: #0b0b0b;
+  margin-top: 0;
+}
+
+.players ul {
+  list-style: none;
+  padding: 0;
+}
+
+.players li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.players li:last-child {
+  border-bottom: none;
+}
+
+.team-display {
+  background-color:#ECCEAE;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.team-display h2 {
+  color: #131515;
+  margin-top: 0;
+}
+
+.team-display ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-display li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.team-display li:last-child {
+  border-bottom: none;
+}
+
+.team-creation {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.team-creation h2 {
+  color: #141515;
+  margin-top: 0;
+}
+
+.team-creation label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.team-creation input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.team-creation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.team-creation button {
+  background-color: #1f2020;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.team-creation button:hover {
+  background-color: #3e4141;
+}
+.matches-heading{
+  color:#1f2020;
+  margin-top: 0;
+}
+.add-match-button{
+  background-color: #1f2020;
+  margin-bottom: 20px;
+}
+.add-match-button:hover{
+  background-color: #5c5757;
+}
+
+.team-creation{
+  background-color: #ECCEAE;
+}
+.match-card{
+  border: 1px solid black;
+}
+.matches-container{
+  background-color: #ECCEAE;
+  margin: 0px;
+  border-radius:5px ;
+}

@@ -1,0 +1,73 @@
+.matches-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.matches-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #4023e4;
+}
+
+.team-select {
+  margin-bottom: 20px;
+}
+
+.team-select label {
+  margin-right: 10px;
+}
+
+.team-select select {
+  padding: 5px;
+}
+
+.winner-select {
+  margin-bottom: 20px;
+}
+
+.winner-select label {
+  margin-right: 10px;
+}
+
+.add-match-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-match-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.match-card {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+
+
+.delete-match-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-match-button:hover {
+  background-color: #da190b;
+}
